@@ -24,6 +24,7 @@ int cmp_env_name(const char *nenv, const char *name)
 }
 
 /**
+ * 
  * _getenv - get an environment variable
  * @name: name of the environment variable
  * @_environ: environment variable

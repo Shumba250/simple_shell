@@ -81,6 +81,7 @@ char *error_get_cd(data_shell *datash)
  * error_not_found - generic error message for command not found
  * @datash: data relevant (counter, arguments)
  * Return: Error message
+ * 
  */
 char *error_not_found(data_shell *datash)
 {
@@ -112,7 +113,6 @@ char *error_not_found(data_shell *datash)
 /**
  * error_exit_shell - generic error message for exit in get_exit
  * @datash: data relevant (counter, arguments)
- *
  * Return: Error message
  */
 char *error_exit_shell(data_shell *datash)
